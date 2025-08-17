@@ -41,17 +41,22 @@ To make the results more tangible and believable, this section showcases key vis
 The confusion matrix below demonstrates the model's high accuracy across all five AAMI classes on the test set. The strong diagonal indicates minimal misclassifications.
 
 <div align="center">
-  <img src="https://i.imgur.com/2nGoa2X.png" alt="Confusion Matrix" width="500">
+  <img src="https://github.com/user-attachments/assets/5980837e-edc9-49e7-894f-24ae9c2d3707" alt="Confusion Matrix" width="500">
 </div>
 
 ### Saliency Map Explainability (XAI)
 The embedded explainability module generates saliency maps that highlight which parts of the ECG waveform were most influential in the model's prediction. This aligns with clinical interpretability.
 
+### Loss and Accuracy
 <div align="center">
-  <img src="https://i.imgur.com/8zL5j1o.png" alt="Saliency Map" width="600">
-  <p><em>Example of a saliency map overlayed on an ECG beat, highlighting the QRS complex.</em></p>
+  <img src="https://github.com/user-attachments/assets/4ec1bb31-4bf4-4f80-8d15-33e9cb5b1174" alt="Comparison of FEEL-ECG with centralized models in
+terms of accuracy" width="500">
 </div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3507c279-7fdc-46c1-9526-fd7178142ff2" alt="Comparison of FEEL-ECG with centralized models in
+terms of loss" width="500">
+</div>
 ---
 
 ## 🎯 Performance Metrics
