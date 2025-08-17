@@ -1,0 +1,9 @@
+tensorflow
+tensorflow-model-optimization
+numpy
+pandas
+scikit-learn
+pywavelets
+matplotlib
+seaborn
+wfdb
