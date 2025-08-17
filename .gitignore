@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+env/
+
+# Data Files - The dataset is too large for GitHub
+data/
+
+# Model files
+*.h5
+*.tflite
+
+# IDE and OS specific
+.idea/
+.vscode/
+*.DS_Store
